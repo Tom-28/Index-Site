@@ -1,0 +1,11 @@
+/* These are the styles at max-width = 660px*/
+
+.logo {
+    width: 15%;
+    margin-left: 25%;
+}
+
+.title {
+    text-align: right;    
+    width: 60%;    
+}

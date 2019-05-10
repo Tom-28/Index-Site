@@ -1,0 +1,13 @@
+/* These are the styles at breakpoint width=400px */
+
+.image1 {
+    width: 38px;
+    height: 38px;      
+}
+
+.sub-title, 
+.main-title {    
+    font-size: 57%;
+}
+
+

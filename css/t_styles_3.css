@@ -1,0 +1,22 @@
+/* These are the styles at breakpoint width=900px */
+
+.colOne {
+    width: 0;
+}
+
+.colTwo {
+    width: 100%;
+}
+
+.midRowThree {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.projekt {    
+    min-height: 70px;    
+}
+
+.colThree {
+    width: 0;
+}

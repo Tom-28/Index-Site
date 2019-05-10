@@ -1,0 +1,17 @@
+/* These are the styles at the breakpoint width=540px */
+
+.image2 {
+    padding-top: 10%;
+    width: 298px;
+    height: 196px;    
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.app1, 
+.app2 {
+    width: 30%;
+}
+

@@ -1,0 +1,21 @@
+/* These are the styles at breakpoint width=550px */
+
+.name {
+    width: 100%;
+}
+
+.beruf {
+    width: 100%;
+    margin-top: -1.5%;
+    margin-left: 0;
+}
+
+.tabThree {
+    margin-left: 2%;
+}
+
+.projekt {    
+    min-height: 90px;    
+}
+
+

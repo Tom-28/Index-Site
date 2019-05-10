@@ -1,0 +1,75 @@
+/* These are the styles at the breakpoint width=800px */
+
+.app1, 
+.app2, 
+.app3 {
+    width: 20%;
+}
+
+
+.image2 {
+    padding-top: 60px;
+    width: 298px;
+    height: 196px;    
+    margin-right: auto;
+    margin-left: 80px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.left-container {
+    padding-top: 100px;
+    background-color: white;
+    width: 20%;
+    height: 100%;
+}
+
+.color1 {
+    height: 36px;
+    width: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #02b3e4;
+    padding: 2%;
+}
+
+.color2 {
+    height: 36px;
+    width: 36px;
+    margin-left: auto;
+    margin-right: auto;    
+    background-color: #2d3c49;
+    padding: 2%;
+    margin-top: 10px;
+}
+
+.color3 {
+    height: 36px;
+    width: 36px;
+    margin-left: auto;
+    margin-right: auto;  
+    background-color: #7d97ad;
+    padding: 2%;
+    margin-top: 10px;
+}
+
+.colorname {
+    font-size: 16px;
+    color: #7d97ad;
+    text-align: center;
+}
+
+.image1 {
+    width: 55px;
+    height: 55px;      
+}
+
+.sub-title, 
+.main-title {    
+    font-size: 80%;
+}
+
+.text, 
+.text_heading {
+    font-size: 20px;
+}

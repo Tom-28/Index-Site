@@ -1,0 +1,13 @@
+/* These are the styles at breakpoint width=1140px */
+
+.colOne {
+    width: 10%;
+}
+
+.colTwo {
+    width: 80%;
+}
+
+.colThree {
+    width: 10%;
+}

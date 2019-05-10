@@ -1,0 +1,19 @@
+/* These are the styles at breakpoint width=1000px */
+
+
+.divTwo {
+    margin-left: -5%;
+    width: 50%;
+}
+
+.colOne {
+    width: 5%;
+}
+
+.colTwo {
+    width: 90%;
+}
+
+.colThree {
+    width: 5%;
+}

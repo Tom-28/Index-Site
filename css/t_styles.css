@@ -1,0 +1,411 @@
+/* Styles for the Homepage */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {    
+    margin: 0;
+}
+
+.Container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rowOne {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.divOne {
+    width: 35%;
+    margin-left: 15%;
+}
+
+.name {
+    font-family: 'Muli', sans-serif;
+    font-size: 120%;
+    margin-top: 2%;
+    color: greenyellow;
+    font-weight: 700;
+}
+
+#last {
+    color: #EEEEEE;
+}
+
+.beruf {
+    margin-top: -1.5%;
+    font-family: 'Muli', sans-serif;
+    color: greenyellow;
+    font-size: 16px;
+}
+
+.divTwo {
+    margin-left: 10%;
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tabs {
+    font-family: 'Muli', sans-serif;
+    color: #EEEEEE;
+    padding-top: 48px;
+    margin-right: 5%;
+}
+
+.tabLink {
+    text-decoration: none;
+    color: white;
+}
+
+.tabLink:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.rowTwo {
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.colOne {
+    width: 15%;
+}
+
+.colTwo {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EEEEEE;
+
+}
+
+.midRowOne {
+    width: 100%;
+    height: 37px;
+    background-color: white;
+}
+
+.midRowTwo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.midColOne {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+img {    
+    width: 72%;
+    margin-left: 10%;
+    position: absolute;
+    top: 6%;  
+}
+
+.midColTwo {
+    width: 40%;
+    padding-right: 5%;
+}
+h3{
+    color: #00BFA5;
+    font-family: 'Muli', sans-serif;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.4;
+    text-align: justify;
+    color: #616161;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.midColThree {
+    width: 20%;
+}
+
+h4 {
+    color: #00BFA5;
+    margin-bottom: 2%;
+}
+
+.midRowThree {
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.midCol {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+}
+
+.projektTitel {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.projekt {
+    max-width: 78%;
+    min-height: 45px;
+    text-align: justify;
+}
+
+.midRowFour {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;  
+}
+
+.divText {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.divLink {
+    width: 100%;
+    text-align: center;
+
+}
+.colThree {
+    width: 15%;
+}
+
+.link {
+    background-color: #00BFA5;
+    color: white;
+    font-size: 16px;
+    padding:5px;
+    /*border-width: 1px;
+    border-color:  #EEEEEE;*/
+    text-decoration: none;
+    border-radius: 35px;
+    min-width: 100px;
+    margin-top: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.link:hover{
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.linkTwo {
+    background-color: #FFB74D;
+    color: white;
+    font-size: 16px;
+    padding:5px;
+    text-decoration: none;
+    border-radius: 35px;
+    min-width: 100px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.linkTwo:hover{
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.linkThree {
+    background-color: #E040FB;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 35px;
+    min-width: 100px;
+    height: 28px;  
+    text-align: center;
+
+    display: inline-block;
+}
+
+.linkThree:hover{
+    cursor: pointer;
+    color: greenyellow;
+}
+
+
+.rowThree {
+    margin-top: 65px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:white;
+}
+
+.divThree {
+    width: 50%;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    color: #616161;
+    padding-left: 30px;
+    padding-bottom: 15pX;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    display: flex;
+    flex-wrap: wrap;
+    height: 55%;
+    overflow: auto;
+  }
+
+  .mRowOne {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+
+  .headOne {
+      width: 95%;
+      margin-bottom: -10%;
+  }
+
+ h2 {
+      margin-top: -2px;
+      color:#E040FB ;
+      font-family: 'Raleway', sans-serif;
+  }
+  
+  /* The Close Button */
+  .close {
+   
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    width: 5%;
+    text-align: right;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.firstTable {
+    font-family: 'Raleway', sans-serif; 
+    line-height: 1.8;
+    color:#00B8D4;
+    max-height: 100%;
+}
+
+.secondTable {
+    font-family: 'Raleway', sans-serif; 
+    line-height: 1.8;
+    color:#00B8D4;
+    max-height: 100%;
+}
+
+.thirdTable {
+    font-family: 'Raleway', sans-serif; 
+    line-height: 1.8;
+    color:#00B8D4;
+}
+
+  .mRowTwo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mDivOne{
+      width: 50%;
+      max-height: 100%;
+  }
+
+  .mDivTwo{
+    width: 50%;
+    max-height: 100%;
+}
+
+.mRowTwoT {
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.mDivH1 {
+    width:50%;
+}
+
+.mDivH2 {
+  width:50%;
+}
+
+.mainDiv {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 75%;
+}
+
+.mainDiv h4 {
+ color: #E040FB;
+ padding-left: 20px;
+ margin-bottom: -5px;
+ font-family: 'Raleway', sans-serif; 
+}
+
+  .mDivOneT {
+      width: 50%;
+  }
+
+  .mDivTwoT {
+    width: 50%;
+}
+
