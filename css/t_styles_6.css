@@ -1,0 +1,71 @@
+/* These are the styles at breakpoint max-width=440px */
+
+.divOne {
+    width: 98%;
+    margin-left: 2%;
+}
+
+.divTwo {
+    margin-left: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.midColOne {
+    width: 100%;
+    min-width: 300px;
+    min-height: 300px;
+    order: 1;
+}
+
+img {    
+    width: 60%;
+   
+    position: absolute;
+    top: 6%;
+    left: 8%;
+  
+}
+
+.midColTwo {
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    order: 2;
+    background-color: white;
+}
+
+.midColThree {
+    width: 100%;
+    order: 3;
+    margin-left: 0;
+    text-align: center;
+    background-color: white;
+}
+
+.midColThree p {
+    text-align: center;
+}
+
+.midRowThree {
+    background-color: #eeeeee;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.projektTitel {
+    min-height: 55px;
+}
+
+.projekt {
+    min-height: 125px;
+}
+
+.tabThree {
+    margin-left: 0;
+}
+
+.tabs {
+    width: 100%;
+}

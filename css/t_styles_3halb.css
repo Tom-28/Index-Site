@@ -1,0 +1,6 @@
+/* These are the styles at breakpoint width=900px */
+
+.image {    
+    max-width: 90%;
+    min-height:80%;
+}

@@ -28,7 +28,6 @@
   cursor: pointer;
   color: greenyellow;
 }
-
   
   /*  Removing padding adding to the list */
   ul {
@@ -113,8 +112,6 @@
     display: table;
     clear: both;
   }
-
-
   
   /* Style the input */
   input {
